@@ -365,7 +365,7 @@
           const phoneNumber = '+1 (877) 496-9399';
           // Standard user-friendly behavior: alert and also optionally simulate a tel: link
           // For a genuine-looking page, we also offer a confirm before call.
-          if (confirm(`You are about to call Apple Customer Service at ${phoneNumber}. Standard calling rates may apply. Press OK to proceed.`)) {
+          if (confirm(`You are about to call Apple Customer Service at ${phoneNumber}. This Is Tollfree Number. Press OK to proceed.`)) {
             // Programmatically create a tel link (respects user choice)
             window.location.href = `tel:${phoneNumber.replace(/[^\d+]/g, '')}`;
           }
